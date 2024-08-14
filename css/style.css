@@ -63,6 +63,14 @@ Medium: 11px
   box-sizing: border-box;
 }
 
+html {
+  /* 
+  1rem = 10px
+  10px / 16px = 62.5%
+  */
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   font-weight: 400;
