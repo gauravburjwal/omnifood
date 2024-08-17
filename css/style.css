@@ -206,7 +206,7 @@ strong {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8em;
 }
 
 .main-nav-link:link,
