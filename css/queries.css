@@ -125,6 +125,8 @@
   /* Mobile Navigation */
   .btn-mobile-nav {
     display: block;
+    /* To show btn even when navbar opens */
+    z-index: 100;
   }
 
   .main-nav {
