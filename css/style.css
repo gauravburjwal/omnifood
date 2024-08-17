@@ -78,6 +78,11 @@ body {
   color: #555;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
 /* *********************************** */
 /* GENERAL COMPONENTS */
 /* *********************************** */
@@ -741,6 +746,11 @@ select {
   color: #fdf2e9;
   align-self: end;
   padding: 1.2rem;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
 
 /* *********************************** */
