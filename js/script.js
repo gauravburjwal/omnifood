@@ -16,7 +16,6 @@ const allLinks = document.querySelectorAll('a:link');
 
 allLinks.forEach(link => {
   link.addEventListener('click', evt => {
-    console.log('Link clicked');
     evt.preventDefault();
     const href = link.getAttribute('href');
 
@@ -35,7 +34,6 @@ allLinks.forEach(link => {
 
     // Close mobile navigation
     if (link.classList.contains('main-nav-link')) {
-      console.log('Link clicked 2');
       headerEl.classList.toggle('nav-open');
     }
   });
